@@ -1,0 +1,39 @@
+*{
+    margin:auto;
+    padding:10px;
+    border-radius: 5px;
+    max-width: 320px;
+    width: 340px;
+    font-size: sans-serif;
+    font-family: bold;
+
+}
+body{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+.calculator{
+    padding: 20px;
+    border-radius: 15px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    color: chocolate;
+
+}
+.ac,.del{
+    color: #7d5d5d;
+    background-color: #f67c14;
+}
+.equalBtn{
+    background: #f67c14;
+}
+.operator{
+    color: rgb(109, 65, 8);
+}
